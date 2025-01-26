@@ -70,6 +70,12 @@ const services = [
   {
     title: 'AI Quiz',
     description: 'Test your knowledge with AI quizzes.',
+    videoLinks: [
+      {
+        title: 'Cityworks Quiz',
+        url: 'https://cityworksquiz.netlify.app',
+      },
+    ],
   },
     {
     title: 'AI Support',
@@ -82,6 +88,12 @@ const services = [
   {
     title: 'AI Research',
     description: 'AI tools for research and analysis.',
+     videoLinks: [
+      {
+        title: 'AI Research Aloud',
+        url: 'https://aialoud.com',
+      },
+    ],
   },
     {
     title: 'AMS Best Practices',
