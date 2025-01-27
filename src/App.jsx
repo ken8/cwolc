@@ -20,16 +20,20 @@ const services = [
     description: 'Listen to AI-generated podcasts.',
      videoLinks: [
       {
-        title: 'AI Services Opportunities - Deep Dive',
+        title: 'Special Episode: AI Services Opportunities',
         url: 'https://www.youtube.com/watch?v=LiXcfwAWPUs',
       },
        {
-         title: 'Outlook Scheduler Deep Dive',
+         title: 'Episode 001:  Outlook Scheduler',
          url: 'https://www.youtube.com/watch?v=NuohP5JXtr8',
        },
        {
-         title: 'Asset Manager Addon',
-         url: 'https://www.youtube.com/watch?v=B_b85Bd0GjQ',
+         title: 'Episode 002:  Standard Fleet Reading',
+         url: 'https://www.youtube.com/watch?v=STaYyHFUQ7E',
+       },
+			 {
+         title: 'Episode 003:  Single Sign On',
+         url: 'https://www.youtube.com/watch?v=jljZmfJZBZw',
        }
     ],
   },
