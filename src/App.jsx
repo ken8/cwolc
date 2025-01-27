@@ -24,12 +24,8 @@ const services = [
         url: 'https://www.youtube.com/watch?v=LiXcfwAWPUs',
       },
        {
-         title: 'Cityworks for Excel - Deep Dive',
-         url: 'https://notebooklm.google.com/notebook/53cf5902-3ba0-4796-be15-64ccade7e8d0/audio',
-       },
-       {
-         title: 'Cityworks Analytics - Deep Dive',
-         url: 'https://notebooklm.google.com/notebook/702c2cb8-ecef-4d47-8feb-ef881d212514/audio',
+         title: 'Outlook Scheduler Deep Dive',
+         url: 'https://www.youtube.com/watch?v=NuohP5JXtr8',
        }
     ],
   },
