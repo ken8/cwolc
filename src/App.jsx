@@ -26,6 +26,10 @@ const services = [
        {
          title: 'Outlook Scheduler Deep Dive',
          url: 'https://www.youtube.com/watch?v=NuohP5JXtr8',
+       },
+       {
+         title: 'Asset Manager Addon',
+         url: 'https://www.youtube.com/watch?v=B_b85Bd0GjQ',
        }
     ],
   },
@@ -63,6 +67,10 @@ const services = [
          title: 'Agents',
          url: 'https://www.kaggle.com/whitepaper-agents',
        },
+       {
+         title: 'Google AI Agent Paper',
+         url: 'https://notebooklm.google.com/notebook/0908cf0a-73cc-46cb-b6bf-fddb02fbc849/audio',
+       }
      ],
   },
   {
