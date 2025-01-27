@@ -54,7 +54,11 @@ const services = [
        {
          title: 'Episode 008 - Cityworks for Excel, A Deep Dive',
          url: 'https://www.youtube.com/watch?v=AKX_BGaXDzE',
-       }
+       },
+       {
+         title: 'Episode 009 - Asset Manager Addon, A Deep Dive',
+         url: 'https://www.youtube.com/watch?v=B_b85Bd0GjQ',
+       }			 
     ],
   },
   {
