@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 const services = [
   {
@@ -24,41 +24,9 @@ const services = [
         url: 'https://www.youtube.com/watch?v=LiXcfwAWPUs',
       },
        {
-         title: 'Episode 001 - Outlook Scheduler, A Deep Dive',
+         title: 'Outlook Scheduler Deep Dive',
          url: 'https://www.youtube.com/watch?v=NuohP5JXtr8',
-       },
-       {
-         title: 'Episode 002 - Standard Fleet Reading, A Deep Dive',
-         url: 'https://www.youtube.com/watch?v=STaYyHFUQ7E',
-       },
-       {
-         title: 'Episode 003 - Single Sign-on, A Deep Dive',
-         url: 'https://www.youtube.com/watch?v=jljZmfJZBZw',
-       },
-       {
-         title: 'Episode 004 - Cityworks Storeroom, A Deep Dive',
-         url: 'https://www.youtube.com/watch?v=5nNsWHN2Qco',
-       },
-       {
-         title: 'Episode 005 - Cityworks Pavement, A Deep Dive',
-         url: 'https://www.youtube.com/watch?v=8zFoz5_HBDQ',
-       },
-       {
-         title: 'Episode 006 - Cityworks Analytics, A Deep Dive',
-         url: 'https://www.youtube.com/watch?v=IVLV63mJKiE',
-       },
-       {
-         title: 'Episode 007 - Cityworks CCTV Interface, A Deep Dive',
-         url: 'https://www.youtube.com/watch?v=u4v85XvPy6g',
-       },
-       {
-         title: 'Episode 008 - Cityworks for Excel, A Deep Dive',
-         url: 'https://www.youtube.com/watch?v=AKX_BGaXDzE',
-       },
-       {
-         title: 'Episode 009 - Asset Manager Addon, A Deep Dive',
-         url: 'https://www.youtube.com/watch?v=B_b85Bd0GjQ',
-       }			 
+       }
     ],
   },
   {
@@ -190,10 +158,26 @@ const services = [
 ];
 
 function App() {
+  const [theme, setTheme] = useState('light-theme');
+
+  useEffect(() => {
+    document.body.className = theme;
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme(prevTheme => (prevTheme === 'light-theme' ? 'dark-theme' : 'light-theme'));
+  };
+
   return (
     <div className="app-container">
+      <span
+        className={`theme-toggle ${theme}`}
+        onClick={toggleTheme}
+      >
+        {theme === 'light-theme' ? '🌙' : '☀️'}
+      </span>
       {services.map((service, index) => (
-        <div key={index} className="service-card">
+        <div key={index} className={`service-card ${theme}`}>
           <h2>{service.title}</h2>
           <p>{service.description}</p>
           {service.videoLinks &&
