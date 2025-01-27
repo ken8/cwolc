@@ -23,6 +23,14 @@ const services = [
         title: 'AI Services Opportunities - Deep Dive',
         url: 'https://www.youtube.com/watch?v=LiXcfwAWPUs',
       },
+       {
+         title: 'Cityworks for Excel - Deep Dive',
+         url: 'https://notebooklm.google.com/notebook/53cf5902-3ba0-4796-be15-64ccade7e8d0/audio',
+       },
+       {
+         title: 'Cityworks Analytics - Deep Dive',
+         url: 'https://notebooklm.google.com/notebook/702c2cb8-ecef-4d47-8feb-ef881d212514/audio',
+       }
     ],
   },
   {
@@ -50,6 +58,16 @@ const services = [
   {
     title: 'AI Agent',
     description: 'AI agents for various tasks.',
+     videoLinks: [
+      {
+         title: 'Building Effective Agents',
+         url: 'https://www.anthropic.com/research/building-effective-agents',
+      },
+       {
+         title: 'Agents',
+         url: 'https://www.kaggle.com/whitepaper-agents',
+       },
+     ],
   },
   {
     title: 'AI Tasker',
@@ -58,10 +76,22 @@ const services = [
   {
     title: 'CW Service Request',
     description: 'AI-powered service request handling.',
+     videoLinks: [
+      {
+        title: 'SR Reporter',
+        url: 'https://srreporter.netlify.app/',
+      },
+    ],
   },
   {
     title: 'AI Trainer',
     description: 'Train your AI models with our tools.',
+     videoLinks: [
+      {
+        title: 'AI Studio',
+        url: 'https://aistudio.google.com/live',
+      },
+    ],
   },
   {
     title: 'AI Game',
@@ -102,6 +132,30 @@ const services = [
       {
         title: 'Asset Management Competency Framework',
         url: 'https://cnam.ca/wp-content/uploads/2021/11/CNAM_AM-Competency-Framework_2020_WEB.pdf',
+      },
+    ],
+  },
+  {
+    title: 'CW Landing Page',
+    description: 'Request to create a landing page for a CWOLC site.',
+     videoLinks: [
+      {
+        title: 'CWOLC Launch Counter',
+        url: 'https://cwolclaunchcounter.netlify.app/',
+      },
+    ],
+  },
+   {
+    title: 'CW Tools',
+    description: 'Various tools for CWOLC.',
+     videoLinks: [
+      {
+        title: 'CWOLC Request',
+        url: 'https://cwolcrequest.netlify.app',
+      },
+       {
+        title: 'CWOLC Monitoring',
+        url: 'https://websitestatus.netlify.app',
       },
     ],
   },
