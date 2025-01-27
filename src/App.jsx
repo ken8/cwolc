@@ -24,9 +24,17 @@ const services = [
         url: 'https://www.youtube.com/watch?v=LiXcfwAWPUs',
       },
        {
-         title: 'Outlook Scheduler Deep Dive',
+         title: 'Episode 001 - Outlook Scheduler Deep Dive',
          url: 'https://www.youtube.com/watch?v=NuohP5JXtr8',
-       }
+       },
+       {
+         title: 'Episode 002 - Outlook Scheduler Deep Dive',
+         url: 'https://www.youtube.com/watch?v=STaYyHFUQ7E',
+       },
+       {
+         title: 'Episode 003 - Outlook Scheduler Deep Dive',
+         url: 'https://www.youtube.com/watch?v=jljZmfJZBZw',
+       }			 
     ],
   },
   {
